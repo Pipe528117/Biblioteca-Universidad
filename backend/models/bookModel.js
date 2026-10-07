@@ -1,6 +1,4 @@
-// backend/models/bookModel.js
 
-// Mock Data inicial para el Módulo MOD_LIBROS
 let books = [
 {
     "id": 1,
