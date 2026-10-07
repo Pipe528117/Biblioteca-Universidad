@@ -1,0 +1,14 @@
+/* frontend/src/index.css */
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  background-color: #e9ecef;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.25rem;
+}

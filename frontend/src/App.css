@@ -1,0 +1,28 @@
+/* frontend/src/App.css */
+
+/* Ajuste general para la estructura sticky footer */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Transición suave para las tarjetas de la aplicación */
+.card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Sombra suave para la barra de navegación */
+.navbar {
+  z-index: 1030;
+}
+
+/* Ajuste de cursor para botones con interacción */
+button, .btn {
+  cursor: pointer;
+}
